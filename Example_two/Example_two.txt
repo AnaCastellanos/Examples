@@ -1,0 +1,8 @@
+1.-Instalar node con Brew
+2.-Instalar mongodb con Bre
+3.-Crear el archivo package.json con las dependencias necesarias. Puede ser manual o desde npm init.
+4.-Instalar las dependencias con npm install
+5.-Crear el app.js
+6.-Iniciar el app con node app.js
+
+Fuente: https://carlosazaustre.es/como-crear-una-api-rest-usando-node-js/
