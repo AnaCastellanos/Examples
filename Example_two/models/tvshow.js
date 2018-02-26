@@ -1,6 +1,9 @@
 var mongoose = require('mongoose'),
 	Schema = mongoose.Schema;
 
+//Conexión a la base de datos.
+mongoose.connect('mongodb://localhost:27017/tvshow');
+
 var tvshowSchema = new Schema({
 	title:   { type: String },
 	year:    { type: Number },
@@ -13,4 +16,4 @@ var tvshowSchema = new Schema({
 	sumary: { type: String }
 });
 
-module.exports: mongoose.model('TVShow', tvshowSchema);
+module.exports = mongoose.model('TVShow', tvshowSchema);

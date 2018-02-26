@@ -1,8 +1,11 @@
-1.-Instalar node con Brew
-2.-Instalar mongodb con Bre
+1.-Instalar node con HomeBrew
+2.-Instalar mongodb con HomeBrew
 3.-Crear el archivo package.json con las dependencias necesarias. Puede ser manual o desde npm init.
 4.-Instalar las dependencias con npm install
 5.-Crear el app.js
-6.-Iniciar el app con node app.js
+6.-Iniciar MongoDB *
+7.-Iniciar app.js
+
+*Si es la primera vez que instalas MongoDB sigue estos pasos: https://stackoverflow.com/questions/41615574/mongodb-server-has-startup-warnings-access-control-is-not-enabled-for-the-dat
 
 Fuente: https://carlosazaustre.es/como-crear-una-api-rest-usando-node-js/
